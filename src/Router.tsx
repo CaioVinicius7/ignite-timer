@@ -10,8 +10,8 @@ function Router() {
       <Route path="/" element={<DefaultLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/history" element={<History />} />
+        <Route path="*" element={<Home />} />
       </Route>
-      <Route path="*" element={<Home />} />
     </Routes>
   );
 }
