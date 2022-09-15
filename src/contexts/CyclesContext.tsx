@@ -53,6 +53,19 @@ export function CyclesContextProvider({
       if (storedStateAsJSON) {
         return JSON.parse(storedStateAsJSON);
       }
+
+      return {
+        activeCycleId: null,
+        cycles: [
+          {
+            id: "2022-08-01T21:09:12.983Z",
+            minutesAmount: 20,
+            startDate: "2022-08-01T21:09:12.014Z",
+            task: "Estudo de React",
+            finishedDate: "2022-08-01T21:09:22.014Z"
+          }
+        ]
+      };
     }
   );
 
