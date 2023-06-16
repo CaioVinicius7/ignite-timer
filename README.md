@@ -38,9 +38,11 @@ Esse é o segundo projeto da trilha de react do ignite de 2022 da [Rocketseat](h
 
 - Responsivo: ❌
 
-- Hospedado: ❌
+- Hospedado: ✅
 
 [Template no Figma](<https://www.figma.com/file/9csWSBr3m1dsG9JH0sxAoV/Ignite-Timer-(Community)>)
+
+[Clique aqui para acessar o projeto](https://ignite-timer-chi-eight.vercel.app/)
 
 <br>
 
